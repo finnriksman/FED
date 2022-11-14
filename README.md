@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Finn Riksman
 
   #### Je startniveau:
-  Blauw
+  Blauw/rood
 
   #### Je focus:
-  Responsiveness (denk ik)
+  Surface plane
  
 </details>
 
@@ -36,16 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.wwf.nl/
+  https://www.cortinafietsen.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home page WWF
-    <img src="readme-images/homepagina.jepg" width="375px" alt="beginpagina van WWF">
-
+  Home page Cortina
+    <img src="readme-images/homepage.png" width="375px" alt="beginpagina van Cortina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Pagina over wat WWF doet 
-  <img src="readme-images/watwijdoen.jpeg" width="375px" alt="wat WWF doet">
+  Inspiratie pagina
+  <img src="readme-images/inspiratie.png" width="375px" alt="inspiratie voor Cortina fietsen">
  
 </details>
 

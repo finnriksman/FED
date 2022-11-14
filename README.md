@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home page Cortina
-    <img src="readme-images/homepage.png" width="375px" alt="beginpagina van Cortina">
+    <img src="readme-images/homepage.PNG" width="375px" alt="beginpagina van Cortina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Inspiratie pagina
-  <img src="readme-images/inspiratie.png" width="375px" alt="inspiratie voor Cortina fietsen">
+  <img src="readme-images/inspiratie.PNG" width="375px" alt="inspiratie voor Cortina fietsen">
  
 </details>
 

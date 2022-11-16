@@ -57,7 +57,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  - Er zijn helemaal geen headings op de beginpagina
   - Alle headings zijn een H2, en een paar H3. Dit geeft geen hiërarchie. Een paar H2's zijn  zelfs anders weergegeven. 
   - Op de winkels pagina worden de locaties op de map in een random volgorde aangeklikt. Niet op volgorde van positie en niet op cijfers.
   - Bij sommige links kun je niet zien dat deze aangeklikt staat. Er is niets dat de focus laat zien. 

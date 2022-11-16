@@ -57,6 +57,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Er zijn helemaal geen headings op de beginpagina
+  - Alle headings zijn een H2, en een paar H3. Dit geeft geen hiërarchie. Een paar H2's zijn  zelfs anders weergegeven. 
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)

@@ -57,38 +57,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  - Alle headings zijn een H2, en een paar H3. Dit geeft geen hiërarchie. Een paar H2's zijn  zelfs anders weergegeven. 
-  - Op de winkels pagina worden de locaties op de map in een random volgorde aangeklikt. Niet op volgorde van positie en niet op cijfers.
-  - Bij sommige links kun je niet zien dat deze aangeklikt staat. Er is niets dat de focus laat zien. 
-  - Soms, vooral op producten pagina's, navigeert de tab op een rare random volgorde door de pagina heen.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen):
-  - Wat hierbij het grootste probleem is, is dat de code zelf geen goede hiërarchie heeft. Er zijn heel veel headings die H2 zijn, ookal is de vormgeving hiervan soms anders. Er zijn geen H1 headings. En helemaal GEEN headings op de beginpagina. Waardoor iemand met een VoiceOver niet door de pagina kan gaan omdat ze niet weten wat hier mogelijk is. 
-  
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen):
-  - Om hiermee een grote verbetering te maken is een nette code, HTML. Een goede hiërarchie, waardoor mensen met een VoiceOver ten minste weten welke dingen mogelijk zijn op de website. Ook het gebruik van meerdere headings in de HTML zal hierbij helpen. Zo kan de pagina worden onderverdeeld in relevante info tot minder relevant. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen):
-  - Opzich was het tabben niet heel erg. Maar op sommige momenten ging het wel fout. Bijvoorbeeld op de home page zijn bij een paar linkjes geen focus states zichtbaar. Hierdoor kun je niet weten waar je bent op de pagina. Ook op andere pagina's is de volgorde van navigeren niet logisch. Het is niet van boven naar beneden, links naar rechts. Maar compleet random. Dus dan boven, daarna beneden, onder, daar, hier, het slaat nergens op. Het is dus altijd maar afwachten of de volgende tab landt op de link waar je heen wilt. 
-  
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen):
-  - Een goede focus state. En weer een nette HTML, op logische volgorde. Dit zou beide dingen veel verhelpen. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen):
-  - Met de spasmes aan mijn arm was het in het algemeen moeilijk om de computer te bedienen. Ik klikte vaak met 2 vingers terwijl ik dit niet bedoelde waardoor dat menu'tje opende met hierin kopiëren enzo. De buttons waren wel groot genoeg om met spasmes toe te kunnen navigeren. Dat was een pluspunt. Verder was het niet lastig om met twee vingers aan elkaar de website te gebruiken. Dat ging gewoon prima. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen):
-  - Misschien wat grotere raakvlakken voor links en buttons, zodat het iets makkelijker wordt voor de gebruiker om door de website te navigeren. 
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen):
-  - Door de veel kleurgebruik en duidelijke grote headings was het wel OK om met wazig beeld door de website te navigeren. Alleen de kleine tekst was soms te onduidelijk. Maar dat kan een slechtziende uiteraard aanpassen in hun eigen computersysteem. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen):
-  - Rekening houden in de code met properties die zich aanpassen op de voorkeuren van de gebruiker in hun laptop. 
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -100,13 +91,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="./readme-images/HTMLschets.png" width="375px" alt="breakdown van de hele pagina">
 
 </details>
 

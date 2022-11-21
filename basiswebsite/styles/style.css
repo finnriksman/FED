@@ -1,0 +1,106 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--KleurZwart:#111;
+	--KleurWit:#FFF;
+	--KleurBlauw: #a2dedd;
+	--KleurDonkerblauw: #0054b1;
+	--KleurRoze: #f6bcd5;
+	--KleurPaars: #4a43c4;
+	--KleurGeel: #fed701;
+	--KleurOranje: #ee7619;
+	--FontHoofd: "Avenir Bold", sans-serif; 
+	--FontLicht: "Avenir Book", sans-serif;
+}
+
+
+body {
+	margin: 0
+}
+
+/****************/
+/*    HEADER    */
+/****************/
+header nav {
+	display: flex;
+	height: 3.7em;
+	box-shadow: 0 0.1em 0.5em #dcdcdc;
+	background-color: var(--KleurWit);
+}
+
+header nav img:nth-of-type(1) {
+	height: 2.8em;
+	justify-self: start;
+	position: absolute;
+	margin: 0.5em;
+}
+
+header nav img:nth-of-type(2) {
+	height: 1.5em;
+	align-self: center;
+	margin: auto;
+}
+
+/*********************/
+/*     SECTION 1     */
+/*********************/
+section:nth-of-type(1) p:first-child {
+	font-family: var(--FontLicht);
+	color: var(--KleurPaars);
+	background-color: var(--KleurBlauw);
+	font-size: 0.9em;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0;
+	margin-top: 0.15em;
+}
+
+section:nth-of-type(1) h1 {
+	font-family: var(--FontHoofd);
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 0.5em;
+}
+
+section:nth-of-type(1) img {
+	width: 100%;
+}
+
+section:nth-of-type(1) ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 0;
+}
+
+section:nth-of-type(1) ul li {
+	list-style: none;
+	font-family: var(--FontLicht);
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	line-height: 1.1em;
+}
+
+section:nth-of-type(1) ul li a {
+	text-decoration: none;
+	color: var(--KleurPaars);
+}

@@ -105,7 +105,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vond het eigenlijk erg goed gaan voor de eerste keer weer coderen in een paar maanden! Bij het meeste wist ik wel welke richting ik op moest en dmv de opdrachten van flexbox, grid, etc was dit nog fijner. Uiteraard liep, en loop, ik nog tegen wat dingetjes aan maar ik vraag dit altijd aan de klas of aan Vasilis. Waar dan een oplossing uit komt die ik zeker snap! 
 
 
   ### Agenda voor meeting
@@ -113,8 +113,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | In de list items margin/padding? | en dit             | en ik dit    | en dan ik dat    |
+  | responsiveness fixen UL en witte header tekst in foto | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 

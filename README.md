@@ -113,9 +113,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Finn.          | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | article in     | en dit             | en ik dit    | en dan ik dat    |
-  | section 1      |                    |              |                  |
-  | bespreken      |                    |              |                  |
+  | article in section 1 vragen. | en dit             | en ik dit    | en dan ik dat    |
   | tussenstukjes  | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 

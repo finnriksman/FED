@@ -105,18 +105,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  Het ging best goed! Ik was lekker bezig met het coderen en erg veel ging er oprecht goed. Als ik ergens niet uitkwam kreeg ik antwoorden waar ik weer mee verder kon gaan. 
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Finn.          | student 2          | student 3    | student 4        |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | article in section 1 vragen. | en dit             | en ik dit    | en dan ik dat    |
-  | tussenstukjes  | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | github update niet? | ...                | ...          | ...              |
-  | images van github niet in mapjes? hoe?? |              |                 | 
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting

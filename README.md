@@ -133,10 +133,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - html is goed
+  - article moet section worden
+  - er hoeft geen desktop versie gemaakt te worden
+  - moet flexbox worden en dan align items
+  - mag maar 1 H1 op pagina. 
 
 </details>
 

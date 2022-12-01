@@ -19,6 +19,7 @@ button, summary {
 :root {
 	--KleurZwart:#111;
 	--KleurWit:#FFF;
+	--KleurGrijs: rgb(223, 223, 223);
 	--KleurBlauw: #a2dedd;
 	--KleurBlauwHover: #46bcc9;
 	--KleurDonkerblauw: #0054b1;
@@ -57,8 +58,10 @@ header {
 	
 	position: sticky;
 	top:0;
-	z-index: 4;
+	z-index: 5;
 	background-color: var(--KleurWit);
+	box-shadow: 0 0.1em 0.5em #bfbfbf;
+	
 }
 
 header img {
@@ -134,10 +137,28 @@ header a {
 	padding-top: 1em;
 	padding-bottom: 1em;
 
-	border-bottom:solid 1px rgb(223, 223, 223);
+	border-bottom:solid 1px var(--KleurGrijs);
 	font-family: var(--FontLicht);
 	text-transform: uppercase;
 	font-size: 1.2em;
+}
+
+header form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header label {
+	font-family: var(--FontLicht);
+	font-size: 0.9em;
+	padding-bottom: 0.3em;
+	margin-right: 40%;
+}
+
+header input {
+	padding: 1em;
+	border: 0.05em solid var(--KleurGrijs);
+	width: 100%;
 }
 
 
@@ -235,7 +256,7 @@ section:nth-of-type(2) ul li {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	border: 0.2em solid rgb(235, 235, 235);
+	border: 0.2em solid var(--KleurGrijs);
 	border-radius: 0.3em;
 	width: 95%;
 	margin-left: 0.5em;
@@ -246,7 +267,7 @@ section:nth-of-type(2) ul li {
 }
 
 section:nth-of-type(2) ul li:hover {
-	border: 0.5em solid rgb(235, 235, 235);
+	border: 0.5em solid var(--KleurGrijs);
 	transition: 0.2s;
 }
 
@@ -375,7 +396,7 @@ section:nth-of-type(4) ul li {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	border: 0.2em solid rgb(235, 235, 235);
+	border: 0.2em solid var(--KleurGrijs);
 	border-radius: 0.3em;
 	width: 95%;
 	margin-left: 0.5em;
@@ -447,22 +468,23 @@ section:nth-of-type(5) ul {
 }
 
 section:nth-of-type(5) ul li {
-	display: flex;
-
-	border: 0.2em solid rgb(235, 235, 235);
+	border: 0.2em solid var(--KleurGrijs);
 	border-radius: 0.3em;
+	list-style: none;
 
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 }
 
 section:nth-of-type(5) ul li:hover {
-	border: 0.4em solid rgb(235, 235, 235);
+	border: 0.4em solid var(--KleurGrijs);
 	border-radius: 0.3em;
 }
 
 section:nth-of-type(5) ul li a {
 	text-decoration: none;
+	display: flex;
+	flex-direction: column;
 }
 
 section:nth-of-type(5) ul li img:nth-of-type(1) {
@@ -494,21 +516,20 @@ section:nth-of-type(5) p {
 	margin: 1em;
 }
 
-section:nth-of-type(5) ul li a h5 {
+section:nth-of-type(5) ul li a button {
+	border: none;
+	border-radius: 0.3em;
+	font-weight: 800;
 	background-color: var(--KleurBlauw);
-	color: black;
-	font-family: var(--FontHoofd);
 	text-transform: uppercase;
 	text-decoration: none;
-	text-align: center;
 	padding-top: 1.6em;
 	padding-bottom: 1.6em;
-	padding-left: 1em;
-	border-radius: 0.3em;
-	margin-left: 2em;
-	margin-right: 2em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	margin-bottom: 2em;
-	align-self: flex-end;
+	width: 90%;
+	align-self: center;
 }
 
 
@@ -522,6 +543,7 @@ section:nth-of-type(5) ul li a h5 {
 section:nth-of-type(6) a {
 	display: flex;
 	justify-content: center;
+	background-color: var(--KleurZwart);
 }
 
 section:nth-of-type(6) img {
@@ -537,7 +559,7 @@ section:nth-of-type(6) h3 {
 	z-index: 1;
 	font-family: var(--FontHoofd);
 	text-transform: uppercase;
-	color: var(--KleurZwart);
+	color: var(--KleurWit);
 	text-align: center;
 	margin: 2em;
 	margin-top: 1em;
@@ -548,7 +570,7 @@ section:nth-of-type(6) p {
 	position: absolute;
 	z-index: 2;
 	font-family: var(--FontLicht);
-	color: var(--KleurZwart);
+	color: var(--KleurWit);
 	text-align: center;
 	margin: 5em;
 	margin-top: 5.5em;
@@ -605,6 +627,34 @@ footer p {
 	text-decoration: none;
 	color: var(--KleurZwart);
 	font-size: 0.9em;
+}
+
+footer form {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1em;
+	margin-top: 2em;
+}
+
+footer label {
+	font-family: var(--FontLicht);
+	font-size: 0.9em;
+	padding-right: 70%;
+	padding-bottom: 0.3em;
+}
+
+footer input {
+	padding: 1em;
+	border: 0.05em solid var(--KleurGrijs);
+}
+
+footer button {
+	border: none;
+	padding: 1em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	font-weight: 800;
+	background-color: #c897d3;
 }
 
 footer section:first-of-type {

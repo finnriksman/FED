@@ -31,6 +31,9 @@ button, summary {
 	--FontLicht: "Avenir Book", sans-serif;
 	--FontSizeH1: 1.8em;
 
+	/* --Border: var(--BorderSize), var(--BorderStijl), var(--KleurGrijs);
+	--BorderSize: 0.2em;
+	--BorderStijl: solid; */
 	
 }
 
@@ -97,6 +100,23 @@ nav button {
 	justify-self: start;
 }
 
+header button:hover {
+	background-color: var(--KleurRoze);
+	transition: 0.3s;
+}
+
+header button:focus {
+	background-color: var(--KleurRoze);
+	transition: 0.3s;
+}
+
+header button:active {
+	background-color: var(--KleurPaars);
+	color: var(--KleurWit);
+	transform: scale(0.95);
+	transition: 0.3s;
+}
+
 nav {
 	padding:1em;
 	display: grid;
@@ -121,6 +141,7 @@ nav.toonMenu {
 
 nav ul {
 	padding-left: 0;
+	margin-top: 0;
 }
 
 nav li {
@@ -143,10 +164,32 @@ header a {
 	font-size: 1.2em;
 }
 
+header a:hover {
+	text-decoration: underline;
+	color: var(--KleurOranje);
+	font-size: 1.5em;
+	transition: 0.3s;
+}
+
+header a:focus {
+	text-decoration: underline;
+	color: var(--KleurOranje);
+	font-size: 1.5em;
+	transition: 0.3s;
+}
+
+header a:active {
+	text-decoration: underline;
+	color: var(--KleurPaars);
+	transition: 0.3s;
+}
+
 header form {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+
 
 header label {
 	font-family: var(--FontLicht);
@@ -161,7 +204,20 @@ header input {
 	width: 100%;
 }
 
+header input:hover {
+	background-color: var(--KleurRoze);
+	transition: 0.3s;
+}
 
+header input:focus {
+	background-color: var(--KleurRoze);
+	transition: 0.3s;
+}
+
+header input:active {
+	background-color: var(--KleurRoze);
+	transition: 0.3s;
+}
 
 
 
@@ -188,10 +244,11 @@ section:nth-of-type(1) section {
 	position: relative;
 }
 
-section:nth-of-type(1) section:nth-of-type(1) h2 {
+section:nth-of-type(1) section:nth-of-type(1) > p {
 	position: absolute;
 	font-family: var(--FontHoofd);
 	font-size: 1.3em;
+	font-weight: 800;
 	color: var(--KleurWit);
 	background: none;
 	text-transform: uppercase;
@@ -235,7 +292,23 @@ section:nth-of-type(1) ul li a {
 	color: var(--KleurPaars);
 }
 
+section:nth-of-type(1) ul li a:hover {
+	text-decoration: underline;
+	color: var(--KleurOranje);
+	transition: 0.3s;
+}
 
+section:nth-of-type(1) ul li a:focus {
+	text-decoration: underline;
+	transition: 0.3s;
+	background-color: var(--KleurRoze);		
+	font-weight: 800;	
+}
+
+section:nth-of-type(1) ul li a:active {
+	color: var(--KleurPaars);
+	transition: 0.3s;
+}
 
 
 
@@ -267,7 +340,17 @@ section:nth-of-type(2) ul li {
 }
 
 section:nth-of-type(2) ul li:hover {
-	border: 0.5em solid var(--KleurGrijs);
+	border: 0.5em solid var(--KleurBlauw);
+	transition: 0.2s;
+}
+
+section:nth-of-type(2) ul li a:focus {
+	border: 0.5em solid var(--KleurBlauw);
+	transition: 0.2s;
+}
+
+section:nth-of-type(2) ul li a:active {
+	border: 0.5em solid var(--KleurPaars);
 	transition: 0.2s;
 }
 
@@ -285,6 +368,11 @@ section:nth-of-type(2) ul li a h2 {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	margin: 0;
+}
+
+section:nth-of-type(2) ul li h2:hover {
+	text-decoration: underline;
+	text-decoration-style: wavy;
 }
 
 section:nth-of-type(2) ul li a img {
@@ -332,7 +420,7 @@ section:nth-of-type(3) video {
 	margin-bottom: 2em;
 }
 
-section:nth-of-type(3) h3 {
+section:nth-of-type(3) h2 {
 	font-family: var(--FontHoofd);
 	text-transform: uppercase;
 	text-align: center;
@@ -355,11 +443,13 @@ section:nth-of-type(3) a {
 	background-color: var(--KleurBlauw);
 	color: black;
 	font-family: var(--FontHoofd);
+	font-weight: 800;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding-top: 1.6em;
 	padding-bottom: 1.6em;
 	padding-left: 1em;
+	padding-right: 1em;
 	border-radius: 0.3em;
 	align-self: center;
 	margin-top: 1.5em;
@@ -371,10 +461,20 @@ section:nth-of-type(3) a:hover {
 	transition: 0.3s;
 }
 
-section:nth-of-type(3) a span {
-	padding-left: 3em;
-	padding-right: 1em;
+section:nth-of-type(3) a:focus {
+	background-color: var(--KleurOranje);
+	color: var(--KleurWit);
+	transition: 0.3s;
 }
+
+section:nth-of-type(3) a:active {
+	background-color: var(--KleurPaars);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+
+
 
 
 
@@ -406,8 +506,23 @@ section:nth-of-type(4) ul li {
 	max-width: 25em;
 }
 
+section:nth-of-type(4) ul li:hover{
+	border: 0.5em solid var(--KleurBlauw);
+	transition: 0.2s;
+}
+
 section:nth-of-type(4) ul li a {
 	text-decoration: none;
+}
+
+section:nth-of-type(4) ul li a:focus {
+	border: 0.5em solid var(--KleurBlauw);
+	transition: 0.2s;	
+}
+
+section:nth-of-type(4) ul li a:active {
+	border: 0.5em solid var(--KleurPaars);
+	transition: 0.2s;
 }
 
 section:nth-of-type(4) ul li a h2 {
@@ -419,6 +534,12 @@ section:nth-of-type(4) ul li a h2 {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	margin: 0;
+}
+
+section:nth-of-type(4) ul li a h2:hover {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: var(--KleurOranje);
 }
 
 section:nth-of-type(4) ul li a img {
@@ -437,13 +558,18 @@ section:nth-of-type(4) ul li a p {
 	margin: 0;
 }
 
-section:nth-of-type(4) ul li a h5 {
+section:nth-of-type(4) ul li a p:last-of-type {
 	color: var(--KleurOranje);
 	font-family: var(--FontHoofd);
+	font-weight: 800;
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 0.4em;
 	font-size: 0.9em;
+}
+
+section:nth-of-type(4) ul li a p:last-of-type:hover {
+	text-decoration: underline;
 }
 
 
@@ -477,8 +603,13 @@ section:nth-of-type(5) ul li {
 }
 
 section:nth-of-type(5) ul li:hover {
-	border: 0.4em solid var(--KleurGrijs);
-	border-radius: 0.3em;
+	border: 0.4em solid var(--KleurOranje);
+	transition: 0.3s;
+}
+
+section:nth-of-type(5) ul li a:focus {
+	border: 0.4em solid var(--KleurOranje);
+	transition: 0.3s;
 }
 
 section:nth-of-type(5) ul li a {
@@ -498,7 +629,7 @@ section:nth-of-type(5) ul li img:nth-of-type(2) {
 	margin-top: 0;
 }
 
-section:nth-of-type(5) h4 /*TITEL*/{
+section:nth-of-type(5) h3 /*TITEL*/{
 	font-family: var(--FontHoofd);
 	text-transform: uppercase;
 	text-align: center;
@@ -514,11 +645,13 @@ section:nth-of-type(5) p {
 	text-align: center;
 	font-size: 1em;
 	margin: 1em;
+	line-height: 1em;
 }
 
-section:nth-of-type(5) ul li a button {
+section:nth-of-type(5) ul li a p:last-of-type {
 	border: none;
 	border-radius: 0.3em;
+	font-family: var(--FontHoofd);
 	font-weight: 800;
 	background-color: var(--KleurBlauw);
 	text-transform: uppercase;
@@ -531,6 +664,19 @@ section:nth-of-type(5) ul li a button {
 	width: 90%;
 	align-self: center;
 }
+
+section:nth-of-type(5) ul li a p:last-of-type:hover {
+	background-color: var(--KleurBlauwHover);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+section:nth-of-type(5) ul li a p:last-of-type:active {
+	background-color: var(--KleurPaars);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
 
 
 
@@ -554,7 +700,7 @@ section:nth-of-type(6) img {
 	margin-bottom: 0;
 }
 
-section:nth-of-type(6) h3 {
+section:nth-of-type(6) h2 {
 	position: absolute;
 	z-index: 1;
 	font-family: var(--FontHoofd);
@@ -576,18 +722,31 @@ section:nth-of-type(6) p {
 	margin-top: 5.5em;
 }
 
-section:nth-of-type(6) h5 {
+section:nth-of-type(6) p:nth-of-type(2) {
 	position: absolute;
 	z-index: 3;
-	align-self: flex-end;
+	margin-top: 11em;
 	background-color: #e8468d;
 	padding: 1.5em;
-	padding-right: 5em;
 	border-radius: 0.3em;
 	color: var(--KleurZwart);
 	font-family: var(--FontHoofd);
+	font-weight: 800;
 	text-transform: uppercase;
 }
+
+section:nth-of-type(6) p:nth-of-type(2):hover {
+	background: var(--KleurRoze);
+	transition: 0.3s;
+}
+
+section:nth-of-type(6) p:nth-of-type(2):active {
+	background: var(--KleurPaars);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+
 
 /*********************/
 /*       FOOTER      */
@@ -618,7 +777,28 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: var(--KleurBlauw);
+	color: var(--KleurOranje);
+	transition: 0.1s;
 }
+
+footer a:focus {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: var(--KleurBlauw);
+	color: var(--KleurOranje);
+	transition: 0.1s;
+}
+
+footer a:active {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: var(--KleurBlauw);
+	color: var(--KleurPaars);
+	transition: 0.1s;
+}
+
 
 footer p {
 	display: block;
@@ -648,6 +828,21 @@ footer input {
 	border: 0.05em solid var(--KleurGrijs);
 }
 
+footer input:hover {
+	background-color: var(--KleurBlauw);
+	transition: 0.3s;
+}
+
+footer input:focus {
+	background-color: var(--KleurBlauw);
+	transition: 0.3s;
+}
+
+footer input:active {
+	background-color: var(--KleurBlauw);
+	transition: 0.3s;
+}
+
 footer button {
 	border: none;
 	padding: 1em;
@@ -655,6 +850,30 @@ footer button {
 	padding-right: 1.25em;
 	font-weight: 800;
 	background-color: #c897d3;
+}
+
+footer button:hover {
+	background-color: var(--KleurOranje);
+	transition: 0.3s;
+	color: var(--KleurWit);
+	transform: scale(1.1);
+	border-radius: 0.4em;
+}
+
+footer button:focus {
+	background-color: var(--KleurOranje);
+	transition: 0.3s;
+	color: var(--KleurWit);
+	transform: scale(1.1);
+	border-radius: 0.4em;
+}
+
+footer button:active {
+	background-color: var(--KleurPaars);
+	transition: 0.3s;
+	color: var(--KleurWit);
+	transform: scale(1.1);
+	border-radius: 0.4em;
 }
 
 footer section:first-of-type {
@@ -668,6 +887,16 @@ footer section:first-of-type a {
 	width: 10%;
 }
 
+footer section:first-of-type a:hover {
+	transform: scale(1.5);
+	transition: 0.3s;
+}
+
+footer section:first-of-type a:focus {
+	transform: scale(1.5);
+	transition: 0.3s;
+}
+
 footer section:nth-of-type(2) {
 	display: flex;
 	padding-bottom: 2em;
@@ -676,3 +905,262 @@ footer section:nth-of-type(2) {
 footer section:nth-of-type(2) a {
 	font-size: 0.7em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************//************************************************************************************************/
+/*       SUPPORT         */
+/*************************/
+
+
+/************************/
+/*       SECTION 1      */
+/************************/
+
+.Support section:first-of-type a {
+	font-family: var(--FontLicht);
+	color: var(--KleurZwart);
+	font-size: 0.7em;
+	margin-left: 1em;
+}
+
+
+
+
+
+/************************/
+/*       SECTION 2      */
+/************************/
+.Support section:nth-of-type(2) H1 {
+	font-family: var(--FontHoofd);
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 1.5em;
+}
+
+.Support section:nth-of-type(2) p {
+	font-family: var(--FontLicht);
+	text-align: center;
+	margin: 1em;
+	line-height: 1.4em;
+	font-size: 1.05em;
+}
+
+
+
+
+
+
+/************************/
+/*       SECTION 3      */
+/************************/
+
+.Support section:nth-of-type(3) {
+	display: flex;
+}
+
+.Support section:nth-of-type(3) a {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0);
+	flex-direction: column;
+	border: 0.2em solid var(--KleurGrijs);
+	margin: 1em;
+	padding: 0;
+	flex-wrap: wrap;
+}
+
+.Support section:nth-of-type(3) a img {
+	width: 1em;
+}
+
+.Support section:nth-of-type(3) h2 {
+	margin: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+
+.Support section:nth-of-type(3) a ul {
+	padding-left: 3em;
+}
+
+.Support section:nth-of-type(3) a li {
+	text-transform: none;
+	font-family: var(--FontLicht);
+	line-height: 1.5em;
+	margin-right: 2em;
+}
+
+.Support section:nth-of-type(3) a:hover {
+	color: var(--KleurZwart);
+	border: 0.5em solid var(--KleurGrijs);
+}
+
+.Support section:nth-of-type(3) p {
+	color: var(--KleurOranje);
+	font-family: var(--FontHoofd);
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 1em;
+	font-weight: 800;
+}
+
+
+
+
+
+
+/************************/
+/*       SECTION 4      */
+/************************/
+
+.Support section:nth-of-type(4) {
+	margin-top: 4em;
+}
+
+.Support section:nth-of-type(4) h2 {
+	font-family: var(--FontHoofd);
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin-left: 0.6em;
+}
+
+.Support section:nth-of-type(4) details {
+	background-color: rgb(248, 248, 248);
+	margin: 1em;
+	padding: 1em;
+	font-family: var(--FontLicht);
+	border: 0.05em solid rgb(124, 124, 124);
+	font-size: 0.9em;
+	line-height: 1.2em;
+}
+
+.Support section:nth-of-type(4) details p:nth-of-type(3) {
+	font-size: 1em;
+	font-family: var(--FontHoofd);
+	font-weight: 800;
+}
+
+
+
+
+
+/************************/
+/*       SECTION 5      */
+/************************/
+
+.Support section:nth-of-type(5) {
+	margin-top: 3em;
+	background-color: rgb(243, 243, 243);
+}
+
+.Support section:nth-of-type(5) img {
+	width: 90%;
+	margin-top: 2em;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+}
+
+.Support section:nth-of-type(5) h2 {
+	font-family: var(--FontHoofd);
+	font-size: 1.7em;
+	margin-top: 0.7em;
+	margin-left: 0.6em;
+	text-align: left;
+	text-transform: none;
+}
+
+.Support section:nth-of-type(5) p {
+	text-align: left;
+}
+
+.Support section:nth-of-type(5) button {
+	border: none;
+	border-radius: 0.3em;
+	font-weight: 800;
+	background-color: var(--KleurBlauw);
+	text-transform: uppercase;
+	padding: 1.5em;
+	width: 80%;
+	margin-bottom: 5em;
+	margin-left: 1.25em;
+}
+
+
+
+
+
+
+/************************/
+/*       SECTION 6      */
+/************************/
+
+.Support section:nth-of-type(6) {
+	margin-bottom: 5em;
+}
+
+.Support section:nth-of-type(6) section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em;
+	border: 0.2em solid var(--KleurGrijs);
+	height: fit-content;
+}
+
+
+.Support section:nth-of-type(6) h2 {
+	color: var(--KleurZwart);
+	position: static;
+	margin-top: 3em;
+}
+
+.Support section:nth-of-type(6) h3 {
+	font-family: var(--FontHoofd);
+	color: var(--KleurDonkerblauw);
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin-bottom: 0.6em;
+}
+
+.Support section:nth-of-type(6) p {
+	color: var(--KleurZwart);
+	text-align: left;
+	position: static;
+	margin: 0.5em;
+}
+
+.Support section:nth-of-type(6) p:nth-of-type(2) {
+	background-color: rgba(255, 255, 255, 0);
+	padding: 0;
+}
+
+.Support section:nth-of-type(6) img {
+	width: 20%;
+	margin: 1em;
+}
+
+.Support section:nth-of-type(6) button {
+	border: none;
+	border-radius: 0.3em;
+	font-weight: 800;
+	background-color: var(--KleurBlauw);
+	text-transform: uppercase;
+	padding: 1.5em;
+	width: 80%;
+	margin: 1em;
+} 

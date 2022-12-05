@@ -43,8 +43,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <img src="readme-images/homepage.PNG" width="375px" alt="beginpagina van Cortina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Inspiratie pagina
-  <img src="readme-images/inspiratie.PNG" width="375px" alt="inspiratie voor Cortina fietsen">
+  Support pagina
+  <img src="readme-images/support.png" width="375px" alt="de support pagina van Cortina">
  
 </details>
 
@@ -281,8 +281,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
+  1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+  2. Hamburger Menu: https://codepen.io/shooft/pen/GRxXboQ
   3. ...
 
 </details>

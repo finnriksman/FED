@@ -189,26 +189,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - button waar '>' wordt gebruikt wordt uitgesproken als 'groter dan'. Hoe fix ik dit??
+  - Links, omdat in sommige 'a' tags meerdere dingen zitten worden bv de foto's ook voorgelezen. Is dit ok? Of raar? 
+
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Regel schrijven waardoor '>' niet wordt opgelezen door de screenreader. 
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - In het begin tabben ga je eerst door de ontzichtbare navigatie heen. 
+  - Headings goed gestructureerd. 
+  - Links, omdat in sommige 'a' tags meerdere dingen zitten, die staan dan opgesomt achter de link. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Een regel coderen waarin je niet meteen naar het navigatie menu gaat?? 
+  - Is hier een regel voor die dit kan voorkomen? Of is dit juist handig. 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Alle buttons en interactieve plekken zijn groot genoeg. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Met kleurenblindheid is de hover van de menu button (bijna) niet zichtbaar. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Andere kleur hover met hoger contrast tussen de kleuren of een visueel ding bij de hover, zoals een underline.
 
 </details>
 
@@ -223,6 +234,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het volledig maken van de website ging erg soepel nogmaals. Ik dacht dat ik het aardig goed toegankelijk had ook, maar bij de test vielen sommige dingen wat tegen waarvan ik dan niet weet hoe ik dat kan oplossen. Dat vind ik bij dit laatste voortgangsgesprek het belangrijkste ook. 
 
 
   ### Agenda voor meeting
@@ -230,9 +242,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | De dingen uit de toegankelijkheidstest die niet werkten.  | en dit             | en ik dit    | en dan ik dat    |
+  | Images op de tweede pagina, waarom niet zichtbaar??  | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Opvallende stadsfietsen niet goed: layout. Maar ook met tabben is de a kleiner dan de li waardoor ze overlappen. Hoe fix je dit?             | ...                | ...          | ...              |
 
 
   ### Verslag van meeting

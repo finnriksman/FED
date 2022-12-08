@@ -250,10 +250,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - focus within, = focus op li als de A wordt gefocust. 
+  - oplezen van alles in de A niet veranderen. 
+  - span + aria-hidden = true voor het niet voorlezen van de '>' icoon bij de screenreader. 
+  - height 100%, space-evenly, daarna sections in de li doen die bij elkaar moeten blijven. 
 
 </details>
 
@@ -295,6 +295,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
   2. Hamburger Menu: https://codepen.io/shooft/pen/GRxXboQ
-  3. ...
+  3. Voor als ik even hulp nodig had met grid: https://cssgridgarden.com/#nl 
+  4. Voor als ik even hulp nodig had met flexbox: https://flexboxfroggy.com/#nl
+  5. Vasilis en Ymaro :) 
+  
 
 </details>

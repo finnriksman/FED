@@ -267,21 +267,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/pagina1.png" width="375px" alt="Screenshot website">
+  <img src="readme-images/pagina2.png" width="375px" alt="Screenshot website">
+  <img src="readme-images/pagina3.png" width="375px" alt="Screenshot website">
+  <img src="readme-images/pagina4.png" width="375px" alt="Screenshot website">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  - Sowieso vond ik het coderen erg soepel gaan. Allee vorig jaar internetstandaarden gehad en programmeren en dat was al bijna een jaar geleden dus ik dacht het begin is even werken. Maar dat viel me reuze mee, ik had het snel weer onder de knie. 
+  - De oefeningen verliepen dan ook goed, ook meestal de rode piste oefeningen. 
+  - Ik heb wel zelfvertrouwen gekregen om wat spannendere dingen toe te voegen in de website, zoals een aria-label en een paar easter eggs.
+  - Het meest enthousiast werd ik dat het uitklapbare menu werkte. Ik heb het met de oefening hierover ernaast gemaakt, maar ik snap de code erg goed. Dus dat was ook wel fijn. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/menu.png" width="375px" alt="Uitklapbaar navigatie menu">
+  <img src="readme-images/cool.png" width="375px" alt="Screenshot footer hover">
+  <img src="readme-images/kerst.png" width="375px" alt="Screenshot geheime kerstknop">
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  De dark mode is niet volledig goed. Sommige teksten kreeg ik maar niet geselecteerd. Ik heb 
-  ook erg zitten puzzelen met het flexboxen van de carrousel voor de opvallende stadsfietsen op de eerste pagina.
-  Uiteindelijk na het laatste voortgangsgesprek is het gelukt! :D 
+  - De dark mode is niet volledig goed. Sommige teksten kreeg ik maar niet geselecteerd. 
+  - Ik heb ook erg zitten puzzelen met het flexboxen van de carrousel voor de opvallende stadsfietsen op de eerste pagina. Uiteindelijk na het laatste voortgangsgesprek is het gelukt! :D 
+  - Daarnaast probeerde ik de mevrouw van de banner laserogen te geven als er gescrollt wordt. Maar dit lukte helemaal niet helaas. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/darkmode.png" width="375px" alt="Dark mode screenshot half goed">
+  <img src="readme-images/laserogen.png" width="375px" alt="Laserplaatje niet op goede plek">
+
 </details>
 
 

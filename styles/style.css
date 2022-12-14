@@ -966,6 +966,7 @@ footer section:first-of-type a {
 footer section:first-of-type a:hover {
 	transform: scale(1.5);
 	transition: 0.3s;
+	animation: none;
 }
 
 footer section:first-of-type a:focus {
@@ -1027,6 +1028,15 @@ footer section:nth-of-type(2) a {
 	color: var(--KleurPaars);
 }
 
+.Support section:nth-of-type(1) img:nth-of-type(2) {
+	width: 10%;
+
+	/*transform: translateX(-1000%);*/
+}
+
+/*.Support section:nth-of-type(1) img:nth-of-type(2).Laser{
+	transform: translateX(0);
+}*/
 
 
 
@@ -1154,6 +1164,27 @@ footer section:nth-of-type(2) a {
 	line-height: 1.2em;
 }
 
+.Support section:nth-of-type(4) details:hover {
+	background-color: var(--KleurGeel);
+	border: 0.3em solid rgb(124, 124, 124);
+	border-radius: 1em;
+	transition: 0.3s;
+}
+
+.Support section:nth-of-type(4) details:focus-within {
+	background-color: var(--KleurGeel);
+	border: 0.3em solid rgb(124, 124, 124);
+	transition: 0.3s;
+}
+
+.Support section:nth-of-type(4) details:active {
+	background-color: var(--KleurPaars);
+	color: var(--KleurWit);
+	border: 0.3em solid rgb(124, 124, 124);
+	transition: 0.3s;
+	border-radius: 1em;
+}
+
 .Support section:nth-of-type(4) details p:nth-of-type(3) {
 	font-size: 1em;
 	font-family: var(--FontHoofd);
@@ -1205,6 +1236,23 @@ footer section:nth-of-type(2) a {
 	margin-left: 1.25em;
 }
 
+.Support section:nth-of-type(5) button:hover {
+	background-color: var(--KleurBlauwHover);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+.Support section:nth-of-type(5) button:focus {
+	background-color: var(--KleurBlauwHover);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+.Support section:nth-of-type(5) button:active {
+	background-color: var(--KleurPaars);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
 
 
 
@@ -1269,3 +1317,21 @@ footer section:nth-of-type(2) a {
 	width: 80%;
 	margin: 1em;
 } 
+
+.Support section:nth-of-type(6) button:hover {
+	background-color: var(--KleurBlauwHover);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+.Support section:nth-of-type(6) button:focus {
+	background-color: var(--KleurBlauwHover);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}
+
+.Support section:nth-of-type(6) button:active {
+	background-color: var(--KleurPaars);
+	color: var(--KleurWit);
+	transition: 0.3s;
+}

@@ -277,7 +277,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De dark mode is niet volledig goed. Sommige teksten kreeg ik maar niet geselecteerd. Ik heb 
+  ook erg zitten puzzelen met het flexboxen van de carrousel voor de opvallende stadsfietsen op de eerste pagina.
+  Uiteindelijk na het laatste voortgangsgesprek is het gelukt! :D 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -298,6 +300,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Voor als ik even hulp nodig had met grid: https://cssgridgarden.com/#nl 
   4. Voor als ik even hulp nodig had met flexbox: https://flexboxfroggy.com/#nl
   5. Vasilis en Ymaro :) 
+  6. https://css-tricks.com/dark-modes-with-css/ 
+  7. https://uxwing.com/christmas-tree-xmas-icon/
+  8. https://gallery.yopriceville.com/Free-Clipart-Pictures/Christmas-PNG/Christmas_Decoration_PNG_Clip_Art#.Y5iDu-zMK3I
+  9. https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.php
   
 
 </details>

@@ -37,6 +37,24 @@ button, summary {
 	
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(72, 72, 72);
+	}
+	p {
+		color: var(--KleurWit);
+	}
+	h1 {
+		color: var(--KleurWit);
+	}
+	h2 {
+		color: var(--KleurWit);
+	}
+	footer h3 {
+		color: var(--KleurWit);
+	}
+}
+
 
 body {
 	margin: 0
@@ -101,12 +119,12 @@ nav button {
 }
 
 header button:hover {
-	background-color: var(--KleurRoze);
+	background-color: var(--KleurOranje);
 	transition: 0.3s;
 }
 
 header button:focus {
-	background-color: var(--KleurRoze);
+	background-color: var(--KleurOranje);
 	transition: 0.3s;
 }
 
@@ -219,8 +237,33 @@ header input:active {
 	transition: 0.3s;
 }
 
+header img:nth-of-type(2) {
+	position: fixed;
+	width: 6%;
+	top: 1em;
+	right: 1em;
+}
 
+header img:nth-of-type(2):hover {
+	transform: scale(1.5);
+	transition: 0.3s;
+	cursor: pointer;
+}
 
+header img:nth-of-type(3) {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 80%;
+
+	transform: translateX(-100%);
+	transition: .3s;
+}
+
+header img:nth-of-type(3).versieringAan {
+	transform: translatex(0);
+}
 
 
 
@@ -455,10 +498,21 @@ section:nth-of-type(3) a {
 	margin-top: 1.5em;
 }
 
+@keyframes buttonDraai {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
 section:nth-of-type(3) a:hover {
 	background-color: var(--KleurBlauwHover);
 	color: var(--KleurWit);
 	transition: 0.3s;
+	animation-name: buttonDraai;
+	animation-duration: 1s;
 }
 
 section:nth-of-type(3) a:focus {
@@ -607,8 +661,13 @@ section:nth-of-type(5) ul li:hover {
 	transition: 0.3s;
 }
 
-section:nth-of-type(5) ul li a:focus {
+section:nth-of-type(5) ul li:focus-within {
 	border: 0.4em solid var(--KleurOranje);
+	transition: 0.3s;
+}
+
+section:nth-of-type(5) ul li:active {
+	border: 0.4em solid var(--KleurPaars);
 	transition: 0.3s;
 }
 
@@ -616,6 +675,8 @@ section:nth-of-type(5) ul li a {
 	text-decoration: none;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
 }
 
 section:nth-of-type(5) ul li img:nth-of-type(1) {
@@ -781,6 +842,9 @@ footer a:hover {
 	text-decoration-color: var(--KleurBlauw);
 	color: var(--KleurOranje);
 	transition: 0.1s;
+	animation-name: linkje;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
 
 footer a:focus {
@@ -797,6 +861,18 @@ footer a:active {
 	text-decoration-color: var(--KleurBlauw);
 	color: var(--KleurPaars);
 	transition: 0.1s;
+	animation-name: linkje;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes linkje {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(1em);
+	}
 }
 
 
@@ -937,6 +1013,19 @@ footer section:nth-of-type(2) a {
 	margin-left: 1em;
 }
 
+.Support section:first-of-type a:hover {
+	text-decoration: none;
+	color: var(--KleurOranje);
+}
+
+.Support section:first-of-type a:focus {
+	text-decoration: none;
+	color: var(--KleurOranje);
+}
+
+.Support section:first-of-type a:active {
+	color: var(--KleurPaars);
+}
 
 
 
@@ -1007,7 +1096,19 @@ footer section:nth-of-type(2) a {
 
 .Support section:nth-of-type(3) a:hover {
 	color: var(--KleurZwart);
-	border: 0.5em solid var(--KleurGrijs);
+	border: 0.5em solid var(--KleurBlauw);
+	animation-name: none;
+}
+
+.Support section:nth-of-type(3) a:focus {
+	color: var(--KleurZwart);
+	border: 0.5em solid var(--KleurBlauw);
+
+}
+
+.Support section:nth-of-type(3) a:active {
+	color: var(--KleurZwart);
+	border: 0.5em solid var(--KleurPaars);
 }
 
 .Support section:nth-of-type(3) p {
@@ -1017,6 +1118,10 @@ footer section:nth-of-type(2) a {
 	margin-bottom: 0;
 	padding-bottom: 1em;
 	font-weight: 800;
+}
+
+.Support section:nth-of-type(3) p:hover {
+	text-decoration: underline;
 }
 
 

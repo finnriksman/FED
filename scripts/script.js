@@ -3,6 +3,8 @@ console.log("hi");
 
 var openButton = document.querySelector("header > button");
 var sluitButton = document.querySelector("nav button");
+var kerstboomButton = document.querySelector("header img:nth-of-type(2)");
+
 
 
 // stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
@@ -34,4 +36,14 @@ function handleKeydown(event) {
     var deNav = document.querySelector("nav");
     deNav.classList.remove("toonMenu");
   }
+}
+
+
+
+kerstboomButton.addEventListener("click", maakKerst);
+
+function maakKerst() {
+   var kerstVersiering = document.querySelector("header img:nth-of-type(2)");
+   kerstVersiering.classList.add("versieringAan");
+   console.log("versiering");
 }
